@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Clipboard</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Online Clipboard</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Paste your text here</h2>
+		<textarea id="text"></textarea>
+		<button id="copy-btn">Copy to Clipboard</button>
+		<p id="status"></p>
+		<p id="key"></p>
+	</main>
+	<footer>
+		<p>&copy; 2023 Online Clipboard</p>
+	</footer>
+	<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
